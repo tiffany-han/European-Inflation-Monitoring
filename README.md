@@ -1,4 +1,4 @@
-# European Inflation Monitoring Dashboard
+# European Inflation Semi-automated Monitoring Dashboard
 
 ## Project Overview
 
