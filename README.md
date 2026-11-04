@@ -1,7 +1,7 @@
 # Semi-automated Data Pipeline for European Inflation Monitoring
 ## Project Overview
 
-This project aims to automate the process of collecting, processing, storing, and visualizing European inflation data using Python, SQL, and Power BI.
+This project aims to automate the collection, processing, and storage of European inflation data using Python and SQL, with Power BI used to create interactive visualizations and monitor inflation trends.
 
 By retrieving monthly Harmonised Index of Consumer Prices (HICP) data from Eurostat, the project develops an interactive dashboard to monitor inflation trends and compare price developments across European countries.
 
