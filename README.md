@@ -1,5 +1,4 @@
-# European Inflation Semi-automated Monitoring Dashboard
-
+# Semi-automated Data Pipeline for European Inflation Monitoring
 ## Project Overview
 
 This project aims to automate the process of collecting, processing, storing, and visualizing European inflation data using Python, SQL, and Power BI.
