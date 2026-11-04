@@ -48,7 +48,7 @@ The dashboard aims to provide insights into three key areas:
 
 ## Data Source
 
-- [Eurostat – Harmonised Index of Consumer Prices (HICP)](https://ec.europa.eu/eurostat/web/hicp/database)
+- [Eurostat – Harmonised Index of Consumer Prices (HICP)](https://ec.europa.eu/eurostat/databrowser/product/page/PRC_HICP_MINR)
 
 ---
 
