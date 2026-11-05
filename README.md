@@ -52,3 +52,19 @@ The dashboard aims to provide insights into three key areas:
 ---
 
 **Project Status:** In Progress
+
+### Current Version – Data Extraction
+
+- Supports data extraction for multiple countries and different time periods through configurable parameters.
+- Successfully consolidates the extracted data from multiple countries into a single CSV file.
+- The current dataset includes the following columns:
+
+| Column | Description |
+|---|---|
+| `country_code` | Country code |
+| `country_name` | Country name |
+| `categories` | Classification of individual consumption by purpose |
+| `period` | Reporting period |
+| `value` | HICP value |
+
+
