@@ -1,4 +1,4 @@
-# Semi-automated Data Pipeline for European Inflation Monitoring
+# European Inflation Monitoring－Data Pipeline Development and Economic Analysis
 ## Project Overview
 
 This project aims to automate the collection, processing, and storage of European inflation data using Python and SQL, with Power BI used to create interactive visualizations and monitor inflation trends.
