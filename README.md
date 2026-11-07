@@ -53,18 +53,19 @@ The dashboard aims to provide insights into three key areas:
 
 **Project Status:** In Progress
 
-### Current Version – Data Extraction
+### Development Progress
 
-- Supports data extraction for multiple countries and different time periods through configurable parameters.
-- Successfully consolidates the extracted data from multiple countries into a single CSV file.
-- The current dataset includes the following columns:
+**Completed**
+- Retrieved monthly HICP data from the Eurostat API.
+- Transformed and standardized the extracted dataset using Python and pandas.
+- Added country and category codes for data identification.
+- Split the time period into separate year and month fields.
+- Stored processed data in a MySQL database.
+- Implemented a composite unique key to prevent duplicate records during data ingestion.
 
-| Column | Description |
-|---|---|
-| `country_code` | Country code |
-| `country_name` | Country name |
-| `categories` | Classification of individual consumption by purpose |
-| `period` | Reporting period |
-| `value` | HICP value |
+**Next Steps**
+- Develop SQL queries for data validation and analysis.
+- Connect MySQL to Power BI.
+- Build an interactive dashboard to monitor inflation trends across European countries.
 
 
