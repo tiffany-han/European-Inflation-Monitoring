@@ -22,14 +22,14 @@ countries= country_csv["country_code"].tolist()
 category_csv= pd.read_csv("category_reference.csv")
 categories= category_csv["category_code"].tolist()
 
-# geo= countries 
-geo= ["EU27_2020"] #specify the desired range
+geo= countries 
+# geo= ["EU27_2020"] #specify the desired range
 sinceTimePeriod= ["2025-01"]
 untilTimePeriod= ["2026-09"]
-# coicop18= categories 
-coicop18= ["TOTAL"] #specify the desired range
-# unit= ["I25","RCH_M","RCH_A"]
-unit= ["I25"] #specify the desired range
+coicop18= categories 
+# coicop18= ["TOTAL"] #specify the desired range
+unit= ["I25","RCH_M","RCH_A"]
+# unit= ["I25"] #specify the desired range
 sql_password= " "
 
 params = {
@@ -93,6 +93,7 @@ df= df[["country_code","country_name",
 
 #wirte the data to the database
 engine= create_engine("mysql+pymysql://root:"+sql_password+"@localhost:3306/eurostat")
+#use "replace" for the initial load; use "append" for subsequent updates to avoid overwriting existing data
 df.to_sql(name="hicp_data", con=engine, if_exists="append", index=False)
 
 #write the data to csv
