@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 
 url= "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hicp_minr?format=JSON"
 
-sql_password= "123456789"
+sql_password= " "
 
 params = {
     "lang": "EN", #language
