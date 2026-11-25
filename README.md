@@ -21,6 +21,14 @@ The dashboard aims to provide insights into three key areas:
 - **Inflation Trends:** Identify whether inflation is accelerating or slowing down across different European markets.
 - **Financial and Monetary Environment:** Track inflation developments to help finance and treasury teams monitor potential implications for interest rate expectations, borrowing costs, and foreign currency exposure.
 
+## Dashboard Preview
+
+The Power BI dashboard provides interactive visualizations of European inflation trends across countries and expenditure categories.
+
+![Dashboard Overview](imgs/dashboard_overview.png)
+
+![Economic Analysis](imgs/case_analysis.png)
+
 ## Data Workflow
 
 | Stage | Tools | Key Activities |
@@ -49,8 +57,6 @@ The Power BI dashboard provides four major analytical perspectives:
 - **Energy Price Impact:** Liquid fuel inflation reached approximately 31% year-on-year, with movements broadly aligned with crude oil prices.
 - **Consumer and Retail Trends:** Compared food inflation and retail trade volume in the Netherlands and Belgium to examine differences in consumption trends.
 
-For detailed charts and economic interpretations, please refer to the project presentation.
-
 ## Technology Stack
 
 | Technology | Application |
@@ -68,6 +74,6 @@ For detailed charts and economic interpretations, please refer to the project pr
 ## Data Source
 
 - [Eurostat – Harmonised Index of Consumer Prices (HICP)](https://ec.europa.eu/eurostat/databrowser/product/page/PRC_HICP_MINR)
-- [Eurostat – Retail Trade Statistics](https://ec.europa.eu/eurostat)
+- [Eurostat – Retail Trade Statistics](https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m$defaultview/default/table?lang=en&utm_source=chatgpt.com)
 - [Taiwan Ministry of Economic Affairs, Energy Administration – Crude Oil Price Data](https://www2.moeaea.gov.tw/oil111/Home/IndexEN)
 
