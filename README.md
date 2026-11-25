@@ -1,4 +1,8 @@
 # European Inflation Monitoring－Data Pipeline Development and Economic Analysis
+
+[English](README.md) | [繁體中文](README.zh-TW.md)
+
+
 ## Project Overview
 
 This project aims to develop a semi-automated data pipeline for monitoring European inflation trends by integrating Python, SQL, and Power BI.
@@ -74,6 +78,8 @@ For detailed charts and economic interpretations, please refer to the project pr
 ## Data Source
 
 - [Eurostat – Harmonised Index of Consumer Prices (HICP)](https://ec.europa.eu/eurostat/databrowser/product/page/PRC_HICP_MINR)
+- [Eurostat – Retail Trade Statistics](https://ec.europa.eu/eurostat)
+- Taiwan Ministry of Economic Affairs, Energy Administration – Crude Oil Price Data
 
 ---
 
