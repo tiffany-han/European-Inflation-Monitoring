@@ -46,5 +46,6 @@ print(country_df["is_eu_member"].value_counts())
 
 #wirte the country reference to the database
 engine= create_engine("mysql+pymysql://root:"+sql_password+"@localhost:3306/eurostat")
+#use "replace" for the initial load; use "append" for subsequent updates avoid overwriting existing data
 country_df.to_sql(name="country_reference", con=engine, if_exists="replace", index=False)
 
