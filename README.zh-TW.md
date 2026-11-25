@@ -22,7 +22,7 @@
 
 ![Dashboard Overview](imgs/dashboard_overview.png)
 
-![Case Analysis](imgs/case_analysis.png)
+![情境個案分析](imgs/case_analysis.png)
 
 完整圖表與經濟分析內容請參考[專案簡報](presentation.pdf)。
 
@@ -71,7 +71,7 @@ Eurostat 發布數據 → Python 擷取資料 → MySQL 更新資料 → Power B
 ## 資料來源
 
 - [Eurostat – 調和消費者物價指數（HICP）](https://ec.europa.eu/eurostat/databrowser/product/page/PRC_HICP_MINR)
-- [Eurostat – 零售量貿易統計](https://ec.europa.eu/eurostat)
+- [Eurostat – 零售量貿易統計](https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m$defaultview/default/table?lang=en&utm_source=chatgpt.com)
 - [經濟部能源署－原油價格資料](https://www2.moeaea.gov.tw/oil111/CrudeOil/Price)
 
 
