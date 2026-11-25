@@ -60,17 +60,7 @@ For detailed charts and economic interpretations, please refer to the project pr
 | SQL / MySQL | Database management and data validation |
 | Power BI | Interactive dashboards and visualization |
 
-## Development Progress
-
-**Completed**
-- Developed configurable multi-country and multi-period data extraction.
-- Processed and standardized Eurostat data using Python and pandas.
-- Stored historical data in MySQL with composite unique keys to prevent duplicate records.
-- Created SQL validation queries and analytical views.
-- Connected MySQL to Power BI and completed interactive dashboards.
-- Completed economic analysis and project presentation.
-
-**Future Development**
+## Future Development
 - Incorporate additional European indicators, such as PPI, employment, wage growth, and household savings.
 - Integrate US CPI and EUR/USD exchange rate data.
 - Further automate monthly data updates and expand cross-market analysis.
@@ -79,12 +69,5 @@ For detailed charts and economic interpretations, please refer to the project pr
 
 - [Eurostat – Harmonised Index of Consumer Prices (HICP)](https://ec.europa.eu/eurostat/databrowser/product/page/PRC_HICP_MINR)
 - [Eurostat – Retail Trade Statistics](https://ec.europa.eu/eurostat)
-- Taiwan Ministry of Economic Affairs, Energy Administration – Crude Oil Price Data
-
----
-
-**Project Focus:** Data Pipeline Development | Economic Analysis | Financial and Business Decision Support
-
-**Project Status:** Completed
-
+- [Taiwan Ministry of Economic Affairs, Energy Administration – Crude Oil Price Data](https://www2.moeaea.gov.tw/oil111/Home/IndexEN)
 
