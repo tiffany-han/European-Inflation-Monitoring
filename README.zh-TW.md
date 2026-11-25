@@ -24,7 +24,7 @@
 
 ![Case Analysis](imgs/case_analysis.png)
 
-完整圖表與經濟分析內容請參考[專案簡報](docs/presentation.pdf)。
+完整圖表與經濟分析內容請參考[專案簡報](presentation.pdf)。
 
 ## 資料流程
 
