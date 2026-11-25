@@ -26,4 +26,5 @@ unit_df= pd.DataFrame({"unit_code":list(unit_code.keys()),
 
 #wirte the unit reference to the database
 engine= create_engine("mysql+pymysql://root:"+sql_password+"@localhost:3306/eurostat")
+#use "replace" for the initial load; use "append" for subsequent updates to avoid overwriting existing data
 unit_df.to_sql(name="unit_reference", con=engine, if_exists="replace", index=False)
