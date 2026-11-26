@@ -29,6 +29,21 @@ The Power BI dashboard provides interactive visualizations of European inflation
 
 ![Economic Analysis](docs/images/case_analysis.png)
 
+## Dashboard & Economic Analysis
+
+The Power BI dashboard provides four major analytical perspectives:
+
+- **Inflation Overview:** Compare EU and Euro Area inflation trends.
+- **Country Comparison:** Visualize geographical differences and country-level inflation rankings.
+- **Category Analysis:** Examine inflation across energy, services, industrial goods, and food.
+- **Energy & Retail Analysis:** Explore crude oil prices, energy inflation, food inflation, and retail trade volume.
+
+### Key Findings
+
+- **Inflation Differences:** Inflation trends varied significantly across European countries, with the island country of Cyprus experiencing a notable acceleration in inflation following the US-Iran conflict.
+- **Energy Price Impact:** Liquid fuel inflation reached 31% year-on-year in October, moving broadly in line with crude oil prices. Energy prices are inferred to be a major driver of the observed inflation increase.
+- **Consumer and Retail Trends:** Compared food inflation and retail trade volume across markets using supermarket retailers as examples to observe consumption trends and inform potential pricing and inventory adjustments.
+
 ## Data Workflow
 
 | Stage | Tools | Key Activities |
@@ -42,20 +57,6 @@ The Power BI dashboard provides interactive visualizations of European inflation
 
 Eurostat Data Release → Python Data Extraction → MySQL Data Update → Power BI Refresh
 
-## Dashboard & Economic Analysis
-
-The Power BI dashboard provides four major analytical perspectives:
-
-- **Inflation Overview:** Compare EU and Euro Area inflation trends.
-- **Country Comparison:** Visualize geographical differences and country-level inflation rankings.
-- **Category Analysis:** Examine inflation across energy, services, industrial goods, and food.
-- **Energy & Retail Analysis:** Explore crude oil prices, energy inflation, food inflation, and retail trade volume.
-
-### Key Findings
-
-- **Inflation Differences:** Observed significant differences in inflation developments across European countries.
-- **Energy Price Impact:** Liquid fuel inflation reached approximately 31% year-on-year, with movements broadly aligned with crude oil prices.
-- **Consumer and Retail Trends:** Compared food inflation and retail trade volume in the Netherlands and Belgium to examine differences in consumption trends.
 
 ## Technology Stack
 
