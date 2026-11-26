@@ -20,11 +20,11 @@
 
 透過 Power BI 整合不同分析視角，呈現歐洲各國及不同消費類別的通膨變化。
 
-![Dashboard Overview](imgs/dashboard_overview.png)
+![Dashboard Overview](docs/images/dashboard_overview.png)
 
-![情境個案分析](imgs/case_analysis.png)
+![情境個案分析](docs/images/case_analysis.png)
 
-完整圖表與經濟分析內容請參考[專案簡報](presentation.pdf)。
+完整圖表與經濟分析內容請參考[專案簡報](docs/presentation.pdf)。
 
 ## 資料流程
 
