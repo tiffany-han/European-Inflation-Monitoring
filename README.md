@@ -25,9 +25,9 @@ The dashboard aims to provide insights into three key areas:
 
 The Power BI dashboard provides interactive visualizations of European inflation trends across countries and expenditure categories.
 
-![Dashboard Overview](imgs/dashboard_overview.png)
+![Dashboard Overview](docs/images/dashboard_overview.png)
 
-![Economic Analysis](imgs/case_analysis.png)
+![Economic Analysis](docs/images/case_analysis.png)
 
 ## Data Workflow
 
